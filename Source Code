@@ -1,0 +1,26 @@
+  #include <iostream>
+using namespace std;
+int main() {
+  int n;
+ 
+  cin >>n;
+ 
+  int k=2*n;
+  int j=n+1;
+ 
+  for (int a=n-1;a>=1;a--)
+  {n=n*a;
+  cout<< " ";
+}
+for (int b=k-1;b>=1;b--)
+  {k=k*b;
+  cout<< " ";
+}
+for (int c=j-1;c>=1;c--)
+  {j=j*c;
+  cout<< " ";
+}
+cout<< (k/j)/n;
+
+    return 0;
+}
